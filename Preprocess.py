@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 def load_data():
     #Loading Data
@@ -66,4 +61,3 @@ def load_data():
     labels = np.reshape(np.nan_to_num(data[:,20],copy = False),(data.shape[0],1))
 
     return inputs,labels 
-
